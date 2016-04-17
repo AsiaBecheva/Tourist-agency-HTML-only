@@ -14,9 +14,13 @@
         padding: 0 !important;
         margin: 0;
     }
+    
+    #logo {
+        width: 160px;
+    }
 
-    #logo{
-    	width: 200px;
+    #login, #register{
+        margin-top: 13px;
     }
     
     .navbar {
@@ -30,9 +34,9 @@
         border: none;
         background-color: #f9f9f9;
     }
-
-    .dropbtn:hover{
-		background-color: #93A0FF;
+    
+    .dropbtn:hover {
+        background-color: #93A0FF;
     }
     
     .dropdown {
@@ -53,45 +57,51 @@
         text-decoration: none;
         display: block;
     }
-
+    
     .dropdown-content a:hover {
-    	background-color: #93A0FF;
+        background-color: #93A0FF;
     }
     
     .dropdown:hover .dropdown-content {
         display: block;
     }
-    
     </style>
 </head>
 
 <body>
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
-        <img id="logo" src="images/logo-1.png">
-            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
-                <ul class="nav navbar-nav">
-                    <div class="dropdown">
-                        <button class="dropbtn">Home</button>
-                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">About</button>                    </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Destinations</button>
-                        <div class="dropdown-content">
-                            <a href="#">Indonesia</a>
-                            <a href="#">Peru</a>
-                            <a href="#">Hawaii</a>
-                            <a href="#">Hongkong</a>
-                            <a href="#">Philippines</a>
-                            <a href="#">Brazil</a>
+            <div class="row">
+                <img id="logo" class="col-md-1" src="images/logo-1.png">
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                    <ul class="nav navbar-nav col-md-5">
+                        <div class="dropdown">
+                            <button class="dropbtn">Home</button>
                         </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">About</button>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Destinations</button>
+                            <div class="dropdown-content">
+                                <a href="#">Indonesia</a>
+                                <a href="#">Peru</a>
+                                <a href="#">Hawaii</a>
+                                <a href="#">Hongkong</a>
+                                <a href="#">Philippines</a>
+                                <a href="#">Brazil</a>
+                            </div>
+                        </div>
+                        <div class="dropdown">
+                            <button class="dropbtn">Contact</button>
+                        </div>
+                    </ul>
+                    <div class="col-md-3"></div>
+                    <div class="col-md-2">
+                        <button id="login" type="button" class="btn btn-info">Login</button>
+                        <button id="register" type="button" class="btn btn-info">Register</button>
                     </div>
-                    <div class="dropdown">
-                        <button class="dropbtn">Contact</button>
-                    </div>
-                    <button type="button" class="btn btn-primary">Primary</button>
-                </ul>
+                </div>
             </div>
         </div>
     </nav>

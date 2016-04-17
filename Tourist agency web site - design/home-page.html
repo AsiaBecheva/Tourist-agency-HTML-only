@@ -18,21 +18,26 @@
     #logo {
         width: 160px;
     }
-
-    #login, #register{
+    
+    #login,
+    #register {
         margin-top: 13px;
+    }
+
+    nav {
+        z-index: 1;
     }
     
     .navbar {
         margin: 8px;
-        opacity: 0.78;
+        opacity: 0.8;
         font-size: 1.3em;
     }
     
     .dropbtn {
         padding: 16px;
         border: none;
-        background-color: #f9f9f9;
+        background-color: white;
     }
     
     .dropbtn:hover {
@@ -47,7 +52,7 @@
     .dropdown-content {
         display: none;
         position: absolute;
-        background-color: #f9f9f9;
+        background-color: white;
         min-width: 140px;
     }
     
@@ -72,14 +77,14 @@
     <nav class="navbar navbar-default" role="navigation">
         <div class="container">
             <div class="row">
-                <img id="logo" class="col-md-1" src="images/logo-1.png">
+                <img id="logo" class="col-md-1" src="images/logo.png">
                 <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                     <ul class="nav navbar-nav col-md-5">
                         <div class="dropdown">
                             <button class="dropbtn">Home</button>
                         </div>
                         <div class="dropdown">
-                            <button class="dropbtn">About</button>
+                            <button class="dropbtn">About us</button>
                         </div>
                         <div class="dropdown">
                             <button class="dropbtn">Destinations</button>
@@ -105,6 +110,98 @@
             </div>
         </div>
     </nav>
+    <div class="container">
+        <div class="row">
+            <div class="col-sm-3 col-lg-3 col-md-3"></div>
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/indonesia-2.jpg" alt="">
+                    <div class="caption">
+                        <h4 class="pull-right">$3600.00</h4>
+                        <h4><a href="#">Indonesia</a>
+                                </h4>
+                        <p>This place is pure paradise. If you're looking for a romantic, relaxing, luxurious holiday this is the perfect place. Set on a hilltop above a river in Ubud overlooking the beautiful jungle trees.</p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">15 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/peru.jpg" alt="">
+                    <div class="caption">
+                        <h4 class="pull-right">$1877.99</h4>
+                        <h4><a href="#">Peru</a>
+                                </h4>
+                        <p>This place is pure paradise. If you're looking for a romantic, relaxing, luxurious holiday this is the perfect place. Set on a hilltop above a river in Ubud overlooking the beautiful jungle trees</p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">12 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-sm-3 col-lg-3 col-md-3"></div>
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/hawaii.jpg" alt="">
+                    <div class="caption">
+                        <h4 class="pull-right">$12500.99</h4>
+                        <h4><a href="#">Hawaii</a>
+                                </h4>
+                        <p>This place is pure paradise. If you're looking for a romantic, relaxing, luxurious holiday this is the perfect place. </p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">31 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-3 col-lg-3 col-md-3">
+                <div class="thumbnail">
+                    <img src="images/philippines-2.jpg" alt="">
+                    <div class="caption">
+                        <h4 class="pull-right">$6320.99</h4>
+                        <h4><a href="#">Philippines</a>
+                                </h4>
+                        <p>This place is pure paradise. If you're looking for a romantic, relaxing, luxurious holiday this is the perfect place.</p>
+                    </div>
+                    <div class="ratings">
+                        <p class="pull-right">6 reviews</p>
+                        <p>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                            <span class="glyphicon glyphicon-star-empty"></span>
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
     <script src="jquery-2.2.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
 </body>

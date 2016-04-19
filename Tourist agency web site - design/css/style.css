@@ -40,6 +40,7 @@ nav {
 
 .dropbtn:hover {
     background-color: #93A0FF;
+    color: white;
 }
 
 .dropdown {
@@ -64,6 +65,7 @@ nav {
 
 .dropdown-content a:hover {
     background-color: #93A0FF;
+    color: white;
 }
 
 .dropdown:hover .dropdown-content {
@@ -147,8 +149,4 @@ nav {
 .panel-login>.panel-heading a.active{
     color: #029f5b;
     font-size: 18px;
-}
-
-.offerts {
-     width: 30%;
 }

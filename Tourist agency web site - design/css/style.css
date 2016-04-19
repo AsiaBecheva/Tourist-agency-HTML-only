@@ -154,3 +154,13 @@ nav {
 #form-contact {
     margin-left: 55px;
 }
+
+.about {
+    width: 70%;
+    height: 800px;
+    background-color: white;
+}
+
+#about-text {
+    font-size: 20px;
+}

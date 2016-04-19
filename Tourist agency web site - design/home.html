@@ -146,7 +146,7 @@
             <div class="col-sm-3 col-lg-3 col-md-3">
                 <p id="inscription">The most </br>exotic </br>destinations</p>
             </div>
-            <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="col-sm-3 col-lg-3 col-md-3 offerts" style="width: 30%;">
                 <div class="thumbnail">
                     <img src="images/indonesia-2.jpg" alt="">
                     <div class="caption">
@@ -167,7 +167,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="col-sm-3 col-lg-3 col-md-3 offerts" style="width: 30%;">
                 <div class="thumbnail">
                     <img src="images/peru.jpg" alt="">
                     <div class="caption">
@@ -191,7 +191,7 @@
         </div>
         <div class="row">
             <div class="col-sm-3 col-lg-3 col-md-3"></div>
-            <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="col-sm-3 col-lg-3 col-md-3" style="width: 30%;">
                 <div class="thumbnail">
                     <img src="images/hawaii.jpg" alt="">
                     <div class="caption">
@@ -212,7 +212,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-3 col-lg-3 col-md-3">
+            <div class="col-sm-3 col-lg-3 col-md-3 offerts" style="width: 30%;">
                 <div class="thumbnail">
                     <img src="images/philippines-2.jpg" alt="">
                     <div class="caption">
@@ -237,26 +237,7 @@
     </div>
     <script src="jquery-2.2.3.js"></script>
     <script src="js/bootstrap.min.js"></script>
-    <script>
-    $(function() {
-
-        $('#login-form-link').click(function(e) {
-            $("#login-form").delay(100).fadeIn(100);
-            $("#register-form").fadeOut(100);
-            $('#register-form-link').removeClass('active');
-            $(this).addClass('active');
-            e.preventDefault();
-        });
-        $('#register-form-link').click(function(e) {
-            $("#register-form").delay(100).fadeIn(100);
-            $("#login-form").fadeOut(100);
-            $('#login-form-link').removeClass('active');
-            $(this).addClass('active');
-            e.preventDefault();
-        });
-
-    });
-    </script>
+    <script src="js/page.js"></script>
 </body>
 
 </html>
